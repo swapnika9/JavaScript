@@ -1,0 +1,60 @@
+<!doctype html>
+	<head>
+		<link href="test.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		<title>Pure JavaScript Text to Audio</title>
+	</head>
+	<body class="bg-dark" >
+        <div class="card bg-light">
+            <input type="radio" name="select" id="slide_1" checked>
+            <input type="radio" name="select" id="slide_2">
+            <input type="radio" name="select" id="slide_3">
+            <input type="checkbox" id="slideImg">
+          
+            <div class="slider">
+              <label for="slide_1" class="slide slide_1"></label>
+              <label for="slide_2" class="slide slide_2"></label>
+              <label for="slide_3" class="slide slide_3"></label>
+            </div>
+          
+            <div class="inner_part">
+              <label for="slideImg" class="img">
+                <img class="img_1" src="https://www.easytechtrick.org/wp-content/uploads/2017/11/Text-To-Speech-Apps.jpg" alt=" ">
+              </label>
+              <div class="content content_1">
+                <div class="title">JavaScript Text to Speech</div>
+                <input class="input" type="text" id="text-to-speech" placeholder="Enter text to speak..."/>
+                <div><button class="btn btn-md bg-dark mt-2 text-white" type="button" onclick="textToAudio()">Text to Speech</button></div>
+                <br/>
+                <div><p><strong>NOTE:</strong> Enter text and click on speak button.</p></div>
+              </div>
+            </div>
+          
+            <div class="inner_part">
+              <label for="slideImg" class="img">
+                <img class="img_2" src="https://miro.medium.com/max/556/1*SvB6VPtPaU70dskNNVxLXw.png" alt="">
+              </label>
+              <div class="content content_2">
+                <div class="title">JavaScript Speech to Text</div>
+                <p class="mt-2">Click on the below button and speak something...</p>
+                <p><button class="btn btn-md bg-dark  text-white" type="button" onclick="runSpeechRecognition()">Speech to Text</button> &nbsp; <span id="action"></span></p>
+                <div id="output" class="hide"></div> 
+              </div>
+            </div>
+          
+            <div class="inner_part">
+              <label for="slideImg" class="img">
+                <img class="img_3" src="https://image.shutterstock.com/image-vector/thank-you-hand-drawn-lettering-260nw-780491263.jpg" alt=" ">
+              </label>
+              <div class="content content_3">
+                <div class="title"><h3>THANK YOU</h3></div>
+                <div class="text">This is Swapnika.<br><strong>Contact : </strong>6305523659
+                
+            </div>
+          </div>
+        <script src="test.js"></script>
+	</body>
+</html>
+
+
+
